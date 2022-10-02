@@ -10,7 +10,7 @@ public class FollowPlayerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        this.offset = this.transform.position - this.plane.transform.position;
     }
 
     // Update is called once per frame
